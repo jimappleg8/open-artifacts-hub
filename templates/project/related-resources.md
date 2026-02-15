@@ -10,6 +10,8 @@ navKey: project-section
 ---
 {% section %}
 
+# Related Resources
+
 The idea of opening objects and information other than software has taken hold in a number of more specialized areas. In effect, the concept of an open artifact is an umbrella for these other open projects. Below is a list of websites that manage open projects of various kinds.
 
 - {% externalLink "Making Society", "http://makingsociety.com" %}
