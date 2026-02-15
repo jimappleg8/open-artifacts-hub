@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-white text-black">
+  <head>
+    {% include "meta.njk" %}
+  </head>
+  <body>
+    <div class="min-h-screen bg-surface min-w-screen">
+      {% include "oa-banner.njk" %}
+      {% include "header.njk" %}
+      <main class="w-4xl mx-auto px-4 py-8">
+        <h1 class="text-2xl font-bold">{{ title }}</h1>
+        <p class="text-sm italic"><strong>Tags:</strong>
+        {% for tag in tags -%}
+          {% if tag !== 'posts' %}
+          <a class="tag" href="/tags/{{ tag }}.html">{{ tag }}</a>
+          {% endif %}
+        {%- endfor %}
+        </p>
+        <div class="prose my-4">
+          {{ content | safe }}
+        </div>
+        <p class="my-2"><strong>Visit the project at</strong> <a href="{{ url }}" target="_blank">{{ url }}</a></p>
+      </main>
+      {% include "footer.njk" %}
+    </div>
+  </body>
+</html>

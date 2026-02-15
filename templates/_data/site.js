@@ -13,14 +13,14 @@ export default {
    */
 
   // The title of your site, used in the <title> tag and other places.
-  title: "Open Artifacts 11ty Starter",
+  title: "Open Artifacts Hub",
 
   // A short description of your site, used for SEO and other metadata.
-  description: "An Eleventy starter template for creating Open Artifacts projects.",
+  description: "Discover, share, and collaborate on open artifacts with the Open Artifacts Hub.",
 
   // A longer description of your site, used in the open-artifact.json file. For
   // multiple paragraphs, use \n\n to separate them.
-  longDescription: "This is a starter template for creating Open Artifacts projects using the Eleventy static site generator. It includes features like automatic generation of open-artifact.json files, a project roadmap, and integration with Obsidian for content management.",
+  longDescription: "The Open Artifacts Hub is an online database with information about existing open artifacts projects. Our mission is to make it easier for cultural creators to find work that needs doing as part of their creative practice.",
 
   // Information about the site maintainer.
   maintainer: {
@@ -31,19 +31,19 @@ export default {
 
   // Tags for your site, used for categorization and discovery in the 
   // Open Artifacts Hub (OpenArtifacts.com).
-  tags: ["website", "template", "eleventy", "open artifacts"],
+  tags: ["website", "search", "eleventy", "open artifacts"],
 
   // Descriptions about important resources for your project. Markdown is 
   // supported. These are simple paragraphs with Markdown links so you can 
   // communicate whatever makes sense for your project.
 
-  homes: "Our [demo website](http://open-artifacts-11ty-starter.netflify.app/) is the place to start. You can also check out the [README on GitHub](https://github.com/jimappleg8/open-artifacts-11ty-starter).",
+  homes: "Our [website](http://openartifacts.com/) is the place to start. You can also check out the [README on GitHub](https://github.com/jimappleg8/open-artifacts-hub).",
 
-  collaborativeSpaces: "You can submit issues and pull requests on our [GitHub repository](https://github.com/jimappleg8/open-artifacts-11ty-starter).",
+  collaborativeSpaces: "You can submit issues and pull requests on our [GitHub repository](https://github.com/jimappleg8/open-artifacts-hub).",
 
-  needsDoingLists: "We maintain a list of tasks that we need help with on the website on our [roadmap page](http://open-artifacts-11ty-starter.netflify.app/project/roadmap/). We also use GitHub Issues to track tasks that need doing. Check out the [Issues tab on GitHub](https://github.com/jimappleg8/open-artifacts-11ty-starter/issues).",
+  needsDoingLists: "We maintain a list of tasks that we need help with on the website on our [roadmap page](http://openartifacts.com/project/roadmap/). We also use GitHub Issues to track tasks that need doing. Check out the [Issues tab on GitHub](https://github.com/jimappleg8/open-artifacts-hub/issues).",
 
-  adaptingTheProject: "You can freely use the starter template to create your own project website. We hope you will contribute back any improvements you make that might help others. If you feel like you need to take the project another direction, feel free to fork our [GitHub repository](https://github.com/jimappleg8/open-artifacts-11ty-starter).",
+  adaptingTheProject: "This data is free to use.",
 
   licenses: "The project website is licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/). The project's code is licensed under the [MIT License](https://opensource.org/licenses/MIT).",
 
@@ -53,7 +53,7 @@ export default {
   // other formats or sources, like Github Issues.
   needsDoing: {
     sourceType: "json",
-    url: "http://open-artifacts-11ty-starter.netflify.app/oa-roadmap.json"
+    url: "http://openartifacts.com/oa-roadmap.json"
   },
 
   // ========================================================================
@@ -74,7 +74,7 @@ export default {
   // and add them to the templates/_includes/icons/ folder.
   // These links are used in the footer and on the "Links in Bio" page.
   social: {
-    github: "https://github.com/jimappleg8/open-artifacts-11ty-starter",
+    github: "https://github.com/jimappleg8/open-artifacts-hub",
     gitlab: "",
     googledrive: "",
     bluesky: "https://bsky.app/profile/evolvetheworld.bsky.social",
@@ -85,7 +85,7 @@ export default {
   },
 
   // Set this to false to effectively remove the Starter Kit pages from the site.
-  showStarterKit: true,
+  showStarterKit: false,
 
   // Main Menu configuration.
   // The Starter Kit link will not be displayed if `showStarterKit` is false.

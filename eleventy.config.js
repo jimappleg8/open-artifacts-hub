@@ -3,6 +3,7 @@ import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
 import { eleventyImagePlugin } from "@11ty/eleventy-img";
 import syntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import filter11tyPlugin from "./src/11ty/filter11tyPlugin.js";
+import pageFind11tyPlugin from "./src/11ty/pageFind11tyPlugin.js";
 import shortcode11tyPlugin from "./src/11ty/shortcode11tyPlugin.js";
 import tailwind11tyPlugin from "./src/11ty/tailwind11tyPlugin.js";
 
@@ -10,6 +11,7 @@ export default async function (eleventyConfig) {
 
   // Custom 11ty plugins that consolidate a bunch of config options
   eleventyConfig.addPlugin(filter11tyPlugin);
+  eleventyConfig.addPlugin(pageFind11tyPlugin);
   eleventyConfig.addPlugin(shortcode11tyPlugin);
   eleventyConfig.addPlugin(tailwind11tyPlugin);
   eleventyConfig.addPlugin(eleventyNavigationPlugin);

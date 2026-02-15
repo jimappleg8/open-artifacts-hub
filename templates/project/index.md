@@ -4,15 +4,14 @@ title: About This Project
 eleventyNavigation:
   key: About this project
   parent: project
+  order: 1
 tags: project
 navKey: project-section
 ---
 {% section %}
 
-{% pageHeader "About This Project", "Every Open Artifacts project starts somewhere. Use this page to talk about what you're trying to do or present what you've already done." %}
+{% pageHeader "About This Project", "Find and share open artifacts projects." %}
 
-This is a placeholder page for you to use to start your project pages.
-
-Project pages are here to contain whatever you need to communicate about your open artifact. It can be instructions or explanations. Essentially, you're trying to provide everything someone else would need to reproduce your artifact, whether it be a printable game or schematics for a house.
+This is an index of open artifacts projects. Whether you're looking for solutions you can use or a project that you can contribute to, this is the place.
 
 {% endsection %}
